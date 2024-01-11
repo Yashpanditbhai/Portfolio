@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF_8">
+        <meta http_equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Yash's Portfolio</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init("ZrEuOuQlOinhPr-5G");
+            })();
+        </script>
+
+    </head>
+    <body>
+        
+        <header class="header sticky">
+            <a href="index.html" class="logo">Yash</a>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact Me</a>
+            </nav>
+
+            <div class="bx bx-moon" id="darkMode-icon"></div>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, I am</h3>
+                <h1>Yash</h1>
+                <p>B.Tech Computer Science and Engineering (Honors in Web Development) Student at KIT Kanpur.</p>
+                <p></p><br>
+                <p>Student Placement Co-ordinator, Competitive Programmer, Tactical Problem Solver, Aspiring Full Stack Web Developer</p>
+
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/yash-dubey-289742282" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://leetcode.com/Pandityash/" target="_blank"><i class='bx bx-code-alt'></i></a>
+                    <a href="https://github.com/Yashpanditbhai" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <a href="#contact" id="contact_button" class="btn">Contact Me</a>
+            </div>
+
+            <div class="profession-container">
+                <div class="profession-box">
+                    <div class="profession" style="--i:0;">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Developer</h3>
+                    </div>
+                    
+                    <div class="profession" style="--i:1;">
+                        <i class='bx bx-book-heart'></i>
+                        <h3>Placement Co-Ordinator</h3>
+                    </div>
+                    <div class="profession" style="--i:2;">
+                        <i class='bx bxs-graduation'></i>
+                        <h3>Python Engineer</h3>
+                    </div>
+                    
+                    <div class="profession" style="--i:3;">
+                        <i class='bx bxl-react'></i>
+                        <h3>MERN Stack Dev</h3>
+                    </div>
+
+                    <div class="circle"></div>
+                </div>
+
+                <div class="overlay"></div>
+            </div>
+            <div class="home-img">
+                <img src="home.png" alt="Photo" style="height: 660px; width:500px; margin-right:70px;">
+            </div>
+        </section>
+    
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="about.jpg" alt="" style="border-radius: 500px;">
+            </div>
+            
+            <div class="about-content">
+                <h2 class="heading">About <span> Me</span></h2>
+                <br><br>
+                <h3>Hi, I'm Yash!</h3>
+                <p>I'm a Final Year Computer Science and Engineering Student at KIT College. An Ambitious Engineer with a great passion of becoming a Full Stack Web Developer.</p>
+                <p></p>
+                <p>Self-motivated learner with insatiable curiosity to drive for personal and professional growth. Well-organized with good time management skills. Clear, logical thinker with a practical approach to problem-solving. Detail-oriented with good verbal communication skills. Technologically adept and eager to bring growth to a flourishing establishment.</p>
+                <div></div><a class="btn" href="https://drive.google.com/file/d/12DafwDnmJEaSeWoU3Lr9yRsTecS0VFOA/view?usp=sharing" target="_blank">Download Resume</a></div>
+            </div>
+
+        </section>
+
+
+        <section class="eduexp" id="eduexp">
+            
+
+            <div class="container">
+                <h2 class="heading">My <span> Qualifications</span></h2>
+                <main class="row">
+                    
+                    <section class="col" id="colone">
+                        
+                        <header class="title">
+                            <h2 id="edu">Education</h2>
+                        </header>
+                        <div class="contents">
+                            <div class="box">
+                                <h1 id="one">Computer Science and Engineering CGPA: 7.85</h1>
+                                <h2 id="clg">Kanpur Institute of Technology</h2>
+                                <h3 id="yr">2020 - 2024</h3>
+                                
+                            </div>
+    
+                            <div class="box">
+                                <h2 id="one">UP Board Class 12th: 80.6% </h2>
+                                <h3 id="clg">Kanahiyalal Saraswati Vidya Mandir Inter College</h3>
+                                <h3 id="yr">2019 - 2020</h3>
+                                
+                            </div>
+    
+                            <div class="box">
+                                <h2 id="one">UP Board Class 10th: 84.67% </h2>
+                                <h3 id="clg">S Shir Banke Lal Inter College</h3>
+                                <h3 id="yr">2017 - 2018</h3>
+                                
+                            </div>
+                        
+                        </div>
+                    </section>
+    
+                    <section class="col" id="coltwo">
+                        <header class="title">
+                            <h2 id="edu">Intern</h2>
+                        </header>
+                        <div class="contents">
+                            <div class="box">
+                                <h2 id="one">Network Managed Expert</h2>
+                                <h3 id="clg">Chegg India</h3>
+                                <h4 id="yr">April 2023 - November 2023</h4>
+                            </div>
+    
+                            <div class="box">
+                                <h2 id="one">Acclaim Coding Solutions</h2>
+                                <h3 id="clg">Web Developer</h3>
+                                <h4 id="yr">April 2023 - July 2023</h4>
+                            </div>
+                        
+                        </div>
+                    </section>
+    
+                </main>
+            </div>
+        </section>
+
+
+        <section class="skills" id="skills">
+        <h2 class="heading">My <span> Skills</span></h2>
+
+        <div class="skills_section">
+            
+            <div class="skills_head">
+                <h2>Front-End & Back-End Languages</h2>
+            </div>
+
+            <div class="skills_main">
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>HTML</h2>
+                        <h2>90%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>PHP</h2>
+                        <h2>75%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>CSS</h2>
+                        <h2>85%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="sass"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Node.js</h2>
+                        <h2>90%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Javascript</h2>
+                        <h2>75%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="react"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Express.js</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="node"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>React JS</h2>
+                        <h2>65%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="express"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Python</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="mongo"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="skills_head">
+                <h2>Database & Programming Languages</h2>
+            </div>
+            <div class="skills_main">
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>MySQL</h2>
+                        <h2>80%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="sql"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Python</h2>
+                        <h2>90%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="py"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>MongoDB</h2>
+                        <h2>70%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="mdb"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Java</h2>
+                        <h2>80%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="jav"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>FireBase</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="fb"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>C</h2>
+                        <h2>75%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="clang"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Oracle</h2>
+                        <h2>50%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="oracle"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>C++</h2>
+                        <h2>95%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="cpp"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills_head">
+                <h2>Web Development Tools & Frameworks</h2>
+            </div>
+
+            <div class="skills_main">
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>VS Code</h2>
+                        <h2>95%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="vsc"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Github</h2>
+                        <h2>90%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="git"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Bootstrap</h2>
+                        <h2>90%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="boot"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>PHPMyAdmin</h2>
+                        <h2>65%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="phpadm"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Figma</h2>
+                        <h2>60%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="figma"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <h2>Django</h2>
+                        <h2>50%</h2>
+                    </div>
+                    <div class="bar">
+                        <span class="django"></span>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+
+        </div>
+        </section>
+
+        <br><br><br>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Featured <span> Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="ai_image.png" alt="" style="height: 250px;">
+                    <div class="portfolio-layer">
+                        
+                        <h4>MERN DALLE AI</h4>
+                        <p>Full Stack AI Image Generation App</p>
+                        
+                        <a href="https://drive.google.com/file/d/1fu4PL6SvT3QSfHnJ-f-5ZwOkHsVzdMgu/view?usp=sharing" id="play" target="_blank"><i class='bx bx-play-circle'></i>Demo</a>
+                    </div>
+                </div>
+
+               
+
+                <div class="portfolio-box">
+                    <img src="blog.png" alt="" style="height: 250px;">
+                    <div class="portfolio-layer">
+                        
+                        <h4>Blog Application</h4>
+                        <p>Front-end Project</p>
+                        
+                        <a href="https://yashpanditbhai.github.io/Blog-web/" id="git" target="_blank"><i class='bx bxl-github' ></i>Live</a>
+                         </div>
+                </div>
+
+                
+                <div class="portfolio-box">
+                    <img src="p7.png" alt="">
+                    <div class="portfolio-layer">
+                        
+                        <h4>Sentence Translator</h4>
+                        <p>Frontend technology</p>
+                        
+                        <a href="https://yashpanditbhai.github.io/Sentence-translator/" id="git" target="_blank"><i class='bx bxl-github' ></i>Live</a>
+                          </div>
+                </div>
+
+
+                <div class="portfolio-box" style="background-image: url(clock.png)">
+                    <img src="clock.png" alt="">
+                    <div class="portfolio-layer">
+                        
+                        <h4>Live clock</h4>
+                        <p>Front-end technologies</p>
+                        
+                        <a href="https://yashpanditbhai.github.io/Live-clock/" class="live-link" target="_blank"><i class='bx bxl-github' ></i>Live</a>
+                        </div>
+                </div>
+
+                
+                <div>
+                    <h3 class="rest">Rest are Premium Projects.</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span> Me</span></h2>
+
+            <form>
+                <div class="input-box">
+                    <input id="name" type="text" placeholder="Your Name Here" required>
+                    <input id="email" type="email" placeholder="Your Email Here" required>
+                </div>
+                <div class="input-box">
+                    <input id="phone" type="number" placeholder="Your Mobile Number Here" required>
+                    <input id="subject" type="text" placeholder="Your Email Subject Here" required>
+                </div>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message Here" required></textarea>
+                <input type="submit" value="Send Message" class="btn" onclick="sendEmail()">
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyrights &copy; 2023 by Yash</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+         <script src="script.js"></script>
+
+    </body>
+</html>
